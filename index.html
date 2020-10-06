@@ -87,5 +87,17 @@
 			<p>Copyright &copy;  All right reserved by <a href="#">Rabbi Hosain</a></p>
 		</div>
 	</footer>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script>
+		$(window).on('load', function(){
+			$(window).on('scroll', function(){
+				if($(window).scrollTop() > 200) {
+					$("header").addClass("sticky");
+				}else {
+					$("header").removeClass("sticky");
+				}
+			})
+		})
+	</script>
 </body>
 </html>
