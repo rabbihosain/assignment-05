@@ -37,6 +37,11 @@ p{
     padding: 20px 0;
     border-bottom: 1px solid #ddd;
 }
+header.sticky {
+    position: sticky;
+    top: 0;
+    background: #008aff;
+}
 .header-section .container{
 	align-items: center;
 }
@@ -69,7 +74,9 @@ p{
     background: #3DA0FF;
     color: #fff;
 }
-
+.header-section.sticky .main-nav ul li a {
+    color: #fff;
+}
 .into-section {
     padding: 50px 0;
     width: 100%;
